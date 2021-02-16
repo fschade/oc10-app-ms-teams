@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<info>
+    <id>ms-teams</id>
+    <name>MS Teams</name>
+    <summary>todo</summary>
+    <description>todo</description>
+    <licence>AGPL</licence>
+    <author>Florian Schade</author>
+    <version>1.0.0</version>
+    <namespace>MSTeams</namespace>
+    <category>integration</category>
+    <website>https://github.com/fschade/oc10-ms-teams</website>
+    <bugs>https://github.com/fschade/oc10-ms-teams/issues</bugs>
+    <repository type="git">https://github.com/fschade/oc10-ms-teams.git</repository>
+    <dependencies>
+        <owncloud min-version="10" max-version="10"/>
+        <php min-version="7.1" />
+    </dependencies>
+</info>

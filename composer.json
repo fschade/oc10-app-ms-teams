@@ -1,0 +1,22 @@
+{
+    "name": "fschade/oc-ms-teams",
+    "type": "library",
+    "description": "description",
+    "require": {
+        "php": ">=7.1",
+        "maennchen/zipstream-php": "^2.1"
+    },
+    "authors": [
+        {
+            "name": "Florian Schade",
+            "email": "f.schade@icloud.com"
+        }
+    ],
+    "config" : {
+        "optimize-autoloader": true,
+        "classmap-authoritative": false,
+        "platform": {
+            "php": "7.1"
+        }
+    }
+}
