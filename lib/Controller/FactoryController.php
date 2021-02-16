@@ -56,8 +56,6 @@ class FactoryController extends Controller {
 			'blank'
 		))->render();
 
-		print_r($manifest);
-		die();
 		$options = new ZipStream\Option\Archive();
 		$options->setSendHttpHeaders(true);
 
